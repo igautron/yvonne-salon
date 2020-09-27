@@ -1,0 +1,100 @@
+.salon-image {
+    height: 650px;
+}
+
+.pink-bg {
+    background-color: rgba(251, 215, 219, 0.83);
+}
+
+.flowers {
+    transform: translate(-70%, -40%);
+    position: absolute;
+    z-index: 100 !important;
+
+}
+
+.btn-as {
+    bottom: 0;
+}
+
+
+@media (max-width: 576px) {
+    .hover-text {
+        font-size: 1rem;
+    }
+
+    .change-place-1 {
+        order: 1;
+    }
+
+    .change-place-2 {
+        order: 2;
+        height: 390px !important;
+    }
+
+    .btn-as {
+        margin-top: 50px !important;
+    }
+
+    .as-block {
+        height: 345px !important;
+    }
+
+    .as-block-first {
+        height: 365px !important;
+    }
+
+    .aboutsalon-p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .hover-text {
+        font-size: 1.2rem !important;
+    }
+
+    btn.btn-as {
+        margin-top: 15px !important;
+        position: relative !important;
+    }
+
+    .change-place-1 {
+        order: 1;
+    }
+
+    .change-place-2 {
+        order: 2;
+        height: 370px !important;
+    }
+
+    .as-block-first {
+        height: 340px !important;
+    }
+
+    .as-block {
+        height: 330px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .btn-as {
+        bottom: 0;
+        position: relative !important;
+        float: right !important;
+    }
+
+    .hover-text {
+        font-size: 1.6rem;
+    }
+
+    .change-place-1 {
+        order: 1;
+    }
+
+    .change-place-2 {
+        order: 2;
+    }
+
+}

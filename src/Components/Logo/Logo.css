@@ -1,0 +1,393 @@
+p.adr {
+    font-size: 15px;
+    font-weight: 100 !important;
+    line-height: 15px !important;
+}
+
+div {
+    margin: 0 auto;
+    align-content: center;
+}
+
+a {
+    z-index: 200;
+    display: block;
+    position: relative;
+}
+
+img.flower {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    width: 165px;
+    height: 135px;
+    transform: translate(-195px, -30px);
+    margin: 30px;
+}
+
+.shop-logo {
+    font-size: 65px !important;
+}
+
+
+.shop-logo-div {
+    padding: 65px 65px 30px;
+}
+
+.shop-logo-img {
+    font-size: 75px;
+    font-weight: 400;
+    height: 85px;
+    letter-spacing: 6px;
+    width: 330px;
+}
+
+.shop-logo-text {
+    font-size: 21px;
+    font-weight: 200;
+    font-stretch: 30px;
+    letter-spacing: 3px;
+    width: 21rem !important;
+    text-align: center;
+}
+
+.btn-like {
+    background-color: #fccccc !important;
+}
+
+.btn-bk {
+    background-color: #fffdc4 !important;
+    color: #fccccc !important;
+    text-shadow: 1px 0px 0px #e0a6f6;
+}
+
+
+@media (max-width: 576px) {
+    .shop-bg-nav {
+        height: 7.1rem !important;
+    }
+
+    .shop-logo-div {
+        height: 6rem !important;
+    }
+
+    #shop-logo {
+        display: none !important;
+    }
+
+    button.navbar.navbar-light.navbar-toggler {
+        color: white !important;
+        padding-bottom: 10px !important;
+    }
+
+
+    .shop-logo-img {
+        font-weight: 400;
+        height: 40px !important;
+        letter-spacing: 6px;
+        padding: 0px 0px 5px 1rem;
+    }
+
+    a.shop-logo-text {
+        font-size: 0.7rem !important;
+        margin-left: 0rem;
+        padding-left: 3rem;
+        letter-spacing: 1.2px;
+    }
+
+    img.flower {
+        display: block;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        transform: translate(-105px, -30px);
+        margin: 25px;
+    }
+
+    a.shop-logo {
+        font-size: 1.8rem !important;
+    }
+
+    .shop-bg-nav, .shop-logo-div{
+        height: 150px;
+    }
+
+    .nav-text {
+        font-size: 1rem;
+        padding-right: 15px !important;
+    }
+
+    .btn-bk, #text {
+        font-size: 0.6rem !important;
+        height: 2.6rem !important;
+    }
+
+    .btn-like, #text {
+        font-size: 0.3rem !important;
+        height: 2.6rem !important;
+    }
+
+    i.fa.fa-heart {
+        font-size: 0.8rem!important;
+    }
+
+    a.logo-tell {
+        font-size: 0.55rem !important;
+    }
+
+    a.logo-slogan {
+        font-size: 0.4rem !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .shop-bg-nav {
+        height: 8rem !important;
+    }
+
+    .shop-nav-first {
+        display: none;
+    }
+
+    .shop-nav-second {
+        display: block;
+        background-color: rgb(66,0,58) !important;
+        border: 0px;
+        height: 50px;
+    }
+
+
+    img.flower {
+        display: block;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        transform: translate(-85px, -17px);
+        margin: 15px;
+    }
+
+
+    a.shop-logo {
+        font-size: 2.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+
+    a.shop-logo-text {
+        font-size: 0.65rem !important;
+    }
+
+    .nav-icon {
+        font-size: 1.2rem;
+    }
+
+    button.navbar.navbar-light.navbar-toggler {
+        color: white !important;
+        padding-bottom: 10px !important;
+    }
+
+    .shop-logo-img {
+        font-weight: 400;
+        height: 50px;
+        letter-spacing: 6px;
+    }
+
+    .btn-bk, #text {
+        font-size: 0.7rem !important;
+    }
+
+    .btn-like, #text {
+        font-size: 0.7rem !important;
+    }
+
+    a.logo-tell {
+        font-size: 0.6rem !important;
+    }
+
+    .shop-logo-div {
+        height: 80px !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 991px;
+    }
+
+    .shop-bg-nav {
+        height: 11rem !important;
+    }
+
+    .shop-nav-first {
+        display: none;
+    }
+
+    .shop-nav-second {
+        display: block;
+        background-color: rgb(66,0,58) !important;
+        border: 0px;
+        height: 50px;
+    }
+
+
+    img.flower {
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        transform: translate(-85px, -17px);
+        margin: 15px;
+    }
+
+
+    a.shop-logo {
+        font-size: 3rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    a.shop-logo-text {
+        font-size: 0.95rem !important;
+        margin-left: 2.8rem;
+        margin-top: 0.5rem !important;
+    }
+
+    .nav-icon {
+        font-size: 1.2rem;
+    }
+
+    button.navbar.navbar-light.navbar-toggler {
+        color: white !important;
+        padding-bottom: 10px !important;
+    }
+
+    .shop-logo-img {
+        font-weight: 400;
+        height: 55px;
+        letter-spacing: 6px;
+    }
+
+    .btn-bk, #text {
+        font-size: 0.7rem !important;
+    }
+
+    .btn-like, #text {
+        font-size: 0.7rem !important;
+    }
+
+    a.logo-tell {
+        font-size: 0.91rem !important;
+    }
+
+    .shop-logo-div {
+        height: 100px !important;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    img.flower {
+        z-index: 100;
+        display: block;
+        position: absolute;
+        width: 145px;
+        height: 115px;
+        transform: translate(-147px, -21px);
+        margin: 30px;
+    }
+
+    .nav-text {
+        font-size: 0.8rem;
+    }
+
+    .shop-nav-second {
+        display: none;
+    }
+
+    a.shop-logo {
+        font-size: 4rem !important;
+    }
+
+    a.shop-logo-text {
+        font-size: 1.3rem !important;
+        margin-left: 2.8rem;
+    }
+
+    .shop-logo-img {
+        font-size: 75px;
+        font-weight: 400;
+        height: 85px;
+        letter-spacing: 6px;
+        width: 330px;
+    }
+
+    .shop-logo-text {
+        width: 100% !important;
+    }
+
+    .btn-bk, #text {
+        font-size: 1rem !important;
+    }
+
+    .btn-like, #text {
+        font-size: 1rem !important;
+    }
+
+    a.logo-tell {
+        font-size: 1rem !important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    img.flower {
+        z-index: 100;
+        display: block;
+        position: absolute;
+        width: 145px;
+        height: 115px;
+        transform: translate(-155px, -21px);
+        margin: 30px;
+    }
+
+    .shop-nav-second {
+        display: none;
+    }
+
+    .shop-logo-img {
+        font-size: 75px;
+        font-weight: 400;
+        height: 85px;
+        letter-spacing: 6px;
+        width: 330px;
+    }
+
+    .shop-logo {
+        font-size: 30px;
+    }
+
+    .shop-logo-text {
+        width: 100% !important;
+    }
+
+    .btn-bk, #text {
+        font-size: 1rem !important;
+    }
+
+    .btn-like, #text {
+        font-size: 1rem !important;
+    }
+
+    a.shop-logo {
+        font-size: 60px !important;
+    }
+
+    a.shop-logo-text {
+        font-size: 19px !important;
+    }
+
+    a.logo-tell {
+        font-size: 1.1rem !important;
+    }
+}

@@ -1,0 +1,136 @@
+nav {
+  height: 50px;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .shop-nav-second, .navbar {
+    border: 0px;
+    height: 40px;
+  }
+
+  .navbar-block {
+    display: none !important;
+  }
+
+  #navbarCollapse1 {
+    background-color: #49091f !important;
+    z-index: 100;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile, .navigation-navbar {
+    background-color: rgba(255,0,95,0.89) !important;
+    height: 40px;
+  }
+
+  button.navbar.navbar-light.navbar-toggler {
+    color: white !important;
+    padding-bottom: 10px !important;
+  }
+
+
+
+  #navbarCollapse1 {
+    background-color: rgb(179, 9, 68) !important;
+    z-index: 100;
+
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .shop-nav-second, .navbar {
+    border: 0px;
+    height: 40px;
+  }
+
+  .navbar-block {
+    display: none !important;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile, .navigation-navbar {
+    background-color: rgba(255, 0, 95, 0.89) !important;
+    height: 40px;
+  }
+
+  .navigation-navbar {
+    background-color: rgba(255,0,95,0.89) !important;
+    height: 40px;
+  }
+
+  button.navbar.navbar-light.navbar-toggler {
+    color: white !important;
+    padding-bottom: 10px !important;
+  }
+
+  #navbarCollapse1 {
+    background-color: rgb(179, 9, 68) !important;
+    z-index: 100;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-block {
+    background-color: rgba(255,0,95,0.89) !important;
+    height: 40px;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile {
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .navbar-block {
+    background-color: rgba(255,0,95,0.89) !important;
+    height: 50px;
+  }
+
+  #navigation-mobile {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .navbar-block {
+    background-color: rgba(255,0,95,0.89) !important;
+    height: 50px;
+  }
+
+  #navigation-mobile {
+    display: none;
+  }
+}

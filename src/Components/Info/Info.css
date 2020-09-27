@@ -1,0 +1,263 @@
+
+@media (max-width: 576px) {
+    .salon-info-text {
+        font-size: 0.9rem !important;
+    }
+
+    .info {
+        height: 450px !important;
+    }
+
+    img.card-image {
+        width: 100% !important;
+        transform: translate(0px, -160px);
+        height: 450px;
+    }
+
+    .card.card-image {
+        position: absolute;
+        background-image: url('../../img/salon/salon.JPG');
+        width: 100% !important;
+        background-attachment: scroll;
+        height: 450px;
+        background-size: cover;
+    }
+
+    .rounded {
+        width: 100%;
+        border-radius: 0;
+        height: 550px;
+    }
+
+    h6.purple-text {
+        margin: 25px 0px 25px 0px;
+    }
+
+    p.pb-3 {
+        font-size: 1.6rem !important;
+        margin: 0;
+        padding: 0px !important;
+        color: rgba(255, 255, 255, 0.89) !important;
+    }
+
+    button.btn-default {
+        margin-top: 39px !important;
+        background: rgba(255,0,95,0.89) !important;
+        color:  white !important;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .info {
+    height: 500px !important;
+}
+    .salon-info-text {
+        font-size: 1rem;
+    }
+
+    img.card-image {
+        width: 100% !important;
+        transform: translate(0px, -160px);
+        height: 500px;
+    }
+
+    .card.card-image {
+        position: absolute;
+        background-image: url('../../img/salon/salon.JPG') ;
+        width: 100% !important;
+        background-attachment: scroll;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .rounded {
+        width: 100%;
+        border-radius: 0;
+        height: 500px;
+    }
+
+    h6.purple-text {
+        margin: 25px 0px 25px 0px;
+    }
+
+    p.pb-3 {
+        font-size: 1.6rem !important;
+        margin: 0;
+        padding: 0px !important;
+        color: rgba(255, 255, 255, 0.89) !important;
+    }
+
+    button.btn-default {
+        margin-top: 39px !important;
+        background: rgba(255,0,95,0.89) !important;
+        color:  white !important;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .info {
+        height: 500px !important;
+    }
+
+    .salon-info-text {
+        font-size: 1rem;
+    }
+
+    img.card-image {
+        width: 100% !important;
+        transform: translate(0px, -160px);
+        height: 500px;
+    }
+
+    .card.card-image {
+        position: absolute;
+        background-image: url('../../img/salon/salon.JPG') ;
+        width: 100% !important;
+        background-attachment: scroll;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .rounded {
+        width: 100%;
+        border-radius: 0;
+        height: 500px;
+    }
+
+    h6.purple-text {
+        margin: 25px 0px 25px 0px;
+    }
+
+    p.pb-3 {
+        font-size: 1.6rem !important;
+        margin: 0;
+        padding: 0px !important;
+        color: rgba(255, 255, 255, 0.89) !important;
+    }
+
+    button.btn-default {
+        margin-top: 39px !important;
+        background: rgba(255,0,95,0.89) !important;
+        color:  white !important;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .info {
+        height: 500px !important;
+    }
+
+    .salon-info-text {
+        font-size: 1.25rem;
+    }
+
+    img.card-image {
+        width: 100% !important;
+        transform: translate(0px, -160px);
+        height: 500px;
+    }
+
+    .card.card-image {
+        position: absolute;
+        background-image: url('../../img/salon/salon.JPG') ;
+        width: 100% !important;
+        background-attachment: scroll;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .rounded {
+        width: 100%;
+        border-radius: 0;
+        height: 500px;
+    }
+
+    h6.purple-text {
+        margin: 25px 0px 25px 0px;
+    }
+
+    p.pb-3 {
+        font-size: 1.6rem !important;
+        margin: 0;
+        padding: 0px !important;
+        color: rgba(255, 255, 255, 0.89) !important;
+    }
+
+    button.btn-default {
+        margin-top: 39px !important;
+        background: rgba(255,0,95,0.89) !important;
+        color:  white !important;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .info {
+        width: 100% !important;
+        height: 550px !important;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
+    img.card-image {
+        width: 100% !important;
+        transform: translate(0px, -160px);
+        height: 550px;
+    }
+
+
+    .card.card-image {
+        position: absolute;
+        background-image: url('../../img/salon/salon.JPG') ;
+        width: 100% !important;
+        background-attachment: scroll;
+        height: 550px;
+        background-size: cover;
+    }
+
+    .rounded {
+        width: 100%;
+        border-radius: 0;
+        height: 550px;
+    }
+
+    h6.purple-text {
+        margin: 25px 0px 25px 0px;
+    }
+
+    p.pb-3 {
+        font-size: 1.6rem !important;
+        margin: 0;
+        padding: 0px !important;
+        color: rgba(255, 255, 255, 0.89) !important;
+    }
+
+    button.btn-default {
+        margin-top: 39px !important;
+        background: rgba(255,0,95,0.89) !important;
+        color:  white !important;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+
+
+
+
+
