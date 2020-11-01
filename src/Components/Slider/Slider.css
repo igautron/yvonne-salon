@@ -1,10 +1,10 @@
 @media (max-width: 576px) {
     .slider {
-        height: 250px !important;
+        height: 100% !important;
     }
 
     .slideimage {
-        height: 250px !important;
+        height: 215px !important;
 
     }
 
@@ -28,6 +28,7 @@
 
     .corousel-slogan {
         font-size: 1rem;
+        padding: 0px!important;
     }
 
     .carousel-caption {
@@ -38,6 +39,7 @@
 
     .corousel-text {
         font-size: 0.6rem !important;
+        padding: 0px!important;
     }
 
     .third-slide {
@@ -92,7 +94,7 @@
 @media (min-width: 576px) and (max-width: 768px) {
 
     .slider {
-        height: 310px !important;
+        height: 100% !important;
     }
 
     .slideimage {
@@ -105,7 +107,12 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .slider {
-        height: 290px !important;
+        height: 100% !important;
+    }
+
+    .slideimage {
+        height: 350px !important;
+
     }
 
     .carousel-caption.slide1 {
@@ -197,7 +204,12 @@
 
 @media (min-width: 991px) and (max-width: 1200px) {
     .slider {
-        height: 400px !important;
+        height: 100% !important;
+    }
+
+    .slideimage {
+        height: 380px !important;
+
     }
 
     .slide1 {
@@ -293,7 +305,12 @@
 
 
     .slider {
-        height: 500px !important;
+        height: 100% !important;
+    }
+
+    .slideimage {
+        height: 550px !important;
+
     }
 
     .d-block {

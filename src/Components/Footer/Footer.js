@@ -1,6 +1,7 @@
 import React from 'react'
 import './FooterStyle.css'
 import {MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavItem, MDBIcon, MDBNavbarNav} from 'mdbreact';
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -25,41 +26,21 @@ const Footer = () => {
                     <MDBCol xl='3' lg='3' md="4" sm='4' className='col-4 pl-xl-5 p-lg-0 p-md-0 p-sm-0 p-0 m-0'>
                         <h5 className='title footer-nav font-weight-normal pl-4 pl-sm-3 pl-md-5 pl-lg-5 pl-xl-5 text-left'>Навігація</h5>
                         <ul className='pl-4 pl-sm-3 pl-md-5 pl-lg-5 pl-xl-5 text-left'>
-                            <li className="list-unstyled footer-nav">
-                                <a href="#!" className='footer-items'>Головна</a>
-                            </li>
-                            <li className="list-unstyled footer-nav">
-                                <a href="#!" className='footer-items'>Про салон</a>
-                            </li>
-                            <li className="list-unstyled footer-nav">
-                                <a href="#!" className='footer-items'>Послуги</a>
-                            </li>
-                            <li className="list-unstyled footer-nav">
-                                <a href="#!" className='footer-items'>Магазин</a>
-                            </li>
-                            <li className="list-unstyled footer-nav">
-                                <a href="#!" className='footer-items'>Контакти</a>
-                            </li>
+                            <Link to='/' className="list-unstyled footer-nav py-1">
+                                Головна
+                            </Link>
+                            <Link to='./aboutSalon' className="list-unstyled footer-nav py-1">Про салон</Link>
+                            <Link to='./service' className="list-unstyled footer-nav py-1">Послуги</Link>
+                            <Link to='./photos' className="list-unstyled footer-nav py-1">Галерея</Link>
+                            <Link to='./price' className="list-unstyled footer-nav py-1">Ціни</Link>
+                            <Link to='./contacts' className="list-unstyled footer-nav py-1">Контакти</Link>
+
                         </ul>
                     </MDBCol>
                     <MDBCol xl='3' lg='3' md="4" sm='4' className='pl-xl-5 p-lg-0 p-md-0 d-md-none d-sm-none m-0 d-lg-block d-xl-block d-none'>
                         <h5 className='title font-weight-normal'>Інформація</h5>
                         <ul className=''>
-                            <li className="list-unstyled">
-                                <a href="#!" className='footer-items'>Ціни</a>
-                            </li>
-                            <li className="list-unstyled">
-                                <a href="#!" className='footer-items'>Сертифікати</a>
-                            </li>
-                            <li className="list-unstyled">
-                                <a href="#!"></a>
-                            </li>
-                            <li className="list-unstyled">
-                                <a href="#!"></a>
-                            </li>
-                            <li className="list-unstyled">
-                                <a href="#!"></a>
-                            </li>
+                            <Link className="list-unstyled footer-nav py-1 m-0 text-left">Сертифікати</Link>
                         </ul>
                     </MDBCol>
                     <MDBCol xl='3' lg='3' md="4" sm='4' className='col-4 p-lg-0 p-md-0 p-sm-0 p-0 m-0'>

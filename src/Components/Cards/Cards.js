@@ -34,12 +34,6 @@ const Cards = () => {
                             <MDBCardText className='black-text' >
                                 Захист волосся при фарбуванні зробить Оlaplex, лінія Joico відновить пошкоджені локони, вирівняють волосся Homna Tokio та  Felps Brasil, біозавивку зробить Mossa
                             </MDBCardText>
-                            <a href='#!' className='black-text d-flex justify-content-end'>
-                                <h5 style={pink}>
-                                    Далі
-                                    <MDBIcon icon='angle-double-right' className='ml-2' />
-                                </h5>
-                            </a>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -58,12 +52,6 @@ const Cards = () => {
                             <MDBCardText className='black-text' >
                                 Натуральні відтінки представлені у професійній лінії фарб Davines. Підсилює блиск і глибину кольору натуральних або пофарбованих пасом.
                             </MDBCardText >
-                            <a href='#!' className='black-text d-flex justify-content-end'>
-                                <h5 style={pink}>
-                                    Далі
-                                    <MDBIcon icon='angle-double-right' className='ml-2' />
-                                </h5>
-                            </a>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -84,12 +72,6 @@ const Cards = () => {
                             <MDBCardText className='black-text' >
                                 Якісні шеллаки та лаки від Komilfo, Kodi та Luxio подарують бездоганний манікюр та педикюр. Безліч відтінків можливо підібрати саме під ваш образ.
                             </MDBCardText >
-                            <a href='#!' className='black-text d-flex justify-content-end'>
-                                <h5 style={pink}>
-                                    Далі
-                                    <MDBIcon icon='angle-double-right' className='ml-2' />
-                                </h5>
-                            </a>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>

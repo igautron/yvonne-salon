@@ -1,0 +1,47 @@
+.slogan {
+    font-size: 1.5rem  !important;
+}
+
+.name {
+    font-size: 1rem  !important;
+}
+
+.quotes {
+    transform: translateX(70px);
+    font-size: 2rem;
+}
+
+
+@media (max-width: 576px) {
+    .slogan {
+        font-size: 0.8rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(10px);
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .slogan {
+        font-size: 1rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(10px);
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slogan {
+        font-size: 1.5rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(40px);
+        font-size: 1.5rem;
+    }
+}

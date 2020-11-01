@@ -6,8 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 const Main = () => {
     return (
         <div className="container">
-            <Router>
-            </Router>
+            vdjyjh dr,jyvb
         </div>
     )
 }

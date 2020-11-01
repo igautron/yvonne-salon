@@ -1,16 +1,7 @@
 import React, { Component, useState }  from 'react'
 import './TopStyle.css'
 import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBIcon,MDBContainer, MDBNavbarToggler, MDBCollapse } from 'mdbreact';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import {Link} from 'react-router-dom'
-
-// import Main from '../Path/main/Main';
-// import AboutSalon from "../Path/about/AboutSalon";
-// import AboutSalon from "../Path/about/AboutSalon";
-// import Service from "../Path/service/Service";
-// import Shop from "../Path/shop/Shop";
-// import Contacts from "../Path/contacts/Contacts";
-
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 class Top extends React.Component {
 
@@ -27,39 +18,42 @@ class Top extends React.Component {
     render() {
         return(
             <div>
-                <Router>
                     <header>
                         <MDBNavbar className='p-3 navbar-block' white expand="md" scrolling fixed="top">
                             <div className="container h-100">
                                 <MDBNavbar left>
                                     <MDBNavItem active >
-                                        <Link to="/main"  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Головна</Link>
+                                        <Link to="/"  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Головна</Link>
                                     </MDBNavItem>
                                     <MDBNavItem >
-                                        <Link  to="/about" className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Про салон</Link>
+                                        <Link  to='./aboutSalon' className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Про салон</Link>
                                     </MDBNavItem>
                                     <MDBNavItem >
-                                        <Link  to="/services"  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Послуги</Link>
+                                        <Link  to='./service' className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Послуги</Link>
+                                    </MDBNavItem>
+                                    <MDBNavItem >
+                                        <Link  to='./photos'  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Галерея</Link>
                                     </MDBNavItem>
                                     <MDBNavItem active >
-                                        <Link to="/shop"  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Магазин</Link>
+                                        <Link to='./price'  className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Ціни</Link>
                                     </MDBNavItem>
                                     <MDBNavItem >
-                                        <Link to="/contacts" className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Контакти</Link>
+                                        <Link to='./contacts' className='white-text text-decoration-none d-inline p-3 font-weight-normal nav-item' >Контакти</Link>
                                     </MDBNavItem>
                                 </MDBNavbar>
                                 <MDBNavbarNav right className='pr-3'>
                                     <MDBNavItem  className='w-25 d-inline p-3 pt-2 pb-2 white-text font-weight-normal'>
-                                        <MDBIcon fab icon="facebook-f"  />
+                                        <a href='' className='text-white' >
+                                             <MDBIcon fab icon="facebook-f"  />
+                                        </a>
                                     </MDBNavItem>
                                     <MDBNavItem className='w-25 d-inline p-3 pt-2 pb-2 white-text font-weight-normal'>
-                                        <MDBIcon fab icon="instagram" />
+                                        <a href='https://www.instagram.com/yvonne__salon/?r=nametag' className='text-white' >
+                                           <MDBIcon fab icon="instagram" />
+                                        </a>
                                     </MDBNavItem>
                                     <MDBNavItem  className='w-25 d-inline p-3 pt-2 pb-2 white-text font-weight-normal'>
                                         <MDBIcon far icon="envelope" />
-                                    </MDBNavItem>
-                                    <MDBNavItem  className='w-25 d-inline p-3 pt-2 pb-2 white-text font-weight-normal'>
-                                        <MDBIcon icon="user-circle" />
                                     </MDBNavItem>
                                 </MDBNavbarNav>
                             </div>
@@ -84,9 +78,6 @@ class Top extends React.Component {
                                                 <MDBNavItem className='w-25 d-inline pl-2 pr-2 pt-2 pb-2 pl-sm-2 pr-sm-3 pt-sm-2 pb-sm-2 pr-md-4 pl-md-2 white-text nav-icon'>
                                                     <MDBIcon far icon='envelope'/>
                                                 </MDBNavItem>
-                                                <MDBNavItem className='w-25 d-inline pl-2 pr-2 pt-2 pb-2 pl-sm-2 pr-sm-2 pt-sm-2 pb-sm-2 pr-md-1 pl-md-2 white-text nav-icon'>
-                                                    <MDBIcon icon='user-circle'  className='border-left pl-4 pl-sm-3 pl-md-3'/>
-                                                </MDBNavItem>
                                             </MDBNavbarNav>
                                             <MDBCollapse
                                                 id='navbarCollapse1'
@@ -96,19 +87,22 @@ class Top extends React.Component {
                                             >
                                                 <MDBNavbarNav left>
                                                     <MDBNavItem active>
-                                                        <MDBNavLink to='#!' className='pl-3 p-2 font-weight-normal text-white'>Головна</MDBNavLink>
+                                                        <Link to='/' className='pl-3 p-2 font-weight-normal text-white'>Головна</Link>
                                                     </MDBNavItem>
                                                     <MDBNavItem>
-                                                        <MDBNavLink to='#!' className='pl-3 p-2 font-weight-normal text-white'>Про салон</MDBNavLink>
+                                                        <Link to='./AboutSalon' className='pl-3 p-2 font-weight-normal text-white'>Про салон</Link>
                                                     </MDBNavItem>
                                                     <MDBNavItem>
-                                                        <MDBNavLink to='#!' className='pl-3 p-2 font-weight-normal text-white'>Послуги</MDBNavLink>
+                                                        <Link to='./Service' className='pl-3 p-2 font-weight-normal text-white'>Послуги</Link>
                                                     </MDBNavItem>
                                                     <MDBNavItem>
-                                                        <MDBNavLink to='#!' className='pl-3 p-2 font-weight-normal text-white'>Магазин</MDBNavLink>
+                                                        <Link to='./photos' className='pl-3 p-2 font-weight-normal text-white'>Галерея</Link>
                                                     </MDBNavItem>
                                                     <MDBNavItem>
-                                                        <MDBNavLink to='#!' className='pl-3 p-2 font-weight-normal text-white'>Контакти</MDBNavLink>
+                                                        <Link to='./price' className='pl-3 p-2 font-weight-normal text-white'>Ціни</Link>
+                                                    </MDBNavItem>
+                                                    <MDBNavItem>
+                                                        <Link to='./contacts' className='pl-3 p-2 font-weight-normal text-white'>Контакти</Link>
                                                     </MDBNavItem>
                                                 </MDBNavbarNav>
                                             </MDBCollapse>
@@ -117,7 +111,6 @@ class Top extends React.Component {
                                 </MDBContainer>
                         </div>
                     </header>
-                </Router>
             </div>
         );
     }

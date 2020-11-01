@@ -6,9 +6,9 @@ import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBMask } from 'mdbreact';
 const Service = () => {
     return (
         <div className='container'>
-            <h2 className="h2-responsive font-weight-bold text-center p-5 galery-text">
+            <h1 className='h1-responsive pt-5 pt-sm-5 pt-md-5 pt-lg-5 pt-xl-5 font-weight-bold my-5 pb-0'>
                 Наші послуги
-            </h2>
+            </h1>
             <h4 className="grey-text text-center h4-responsive mx-auto mb-5 text-media">
                 Наші майстри створюють неперевершений образ для жінок, чоловіків та дітей. Нові тренди та широкий спектр послуг робить ваш салон одним із успішних бізнес-моделей індустрії краси.
             </h4>
@@ -26,7 +26,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Укладка<MDBIcon icon="angle-right" className="pl-3 fa-w-1"/>
+                                        Укладка
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -46,7 +46,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Стрижки <MDBIcon icon="angle-right" />
+                                        Стрижки
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -66,7 +66,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Зачіски <MDBIcon icon="angle-right" />
+                                        Зачіски
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -86,7 +86,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Плетіння <MDBIcon icon="angle-right" />
+                                        Плетіння
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -106,7 +106,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Завивка волосся<MDBIcon icon="angle-right" />
+                                        Завивка волосся
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -126,7 +126,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Фарбування <MDBIcon icon="angle-right" />
+                                        Фарбування
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -146,7 +146,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Колорування <MDBIcon icon="angle-right" />
+                                        Колорування
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -166,7 +166,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Ламінування волосся<MDBIcon icon="angle-right" />
+                                        Ламінування волосся
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -186,7 +186,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Комплексний догляд за волоссям<MDBIcon icon="angle-right" />
+                                        Комплексний догляд за волоссям
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -206,7 +206,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Чоловічі стрижки <MDBIcon icon="angle-right" />
+                                        Чоловічі стрижки
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -226,7 +226,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Дитячі стрижки <MDBIcon icon="angle-right" />
+                                        Дитячі стрижки
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -246,7 +246,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Манікюр класичний <MDBIcon icon="angle-right" />
+                                        Манікюр класичний
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -266,7 +266,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Манікюр механічний <MDBIcon icon="angle-right" />
+                                        Манікюр механічний
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -286,7 +286,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                         Педикюр класичний<MDBIcon icon="angle-right" />
+                                         Педикюр класичний
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -306,7 +306,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Педикюр механічний<MDBIcon icon="angle-right" />
+                                        Педикюр механічний
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -326,7 +326,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Покриття лаком<MDBIcon icon="angle-right" />
+                                        Покриття лаком
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -346,7 +346,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Покриття гель-лаком<MDBIcon icon="angle-right" />
+                                        Покриття гель-лаком
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -366,7 +366,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Нарощування нігтів<MDBIcon icon="angle-right" />
+                                        Нарощування нігтів
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -386,7 +386,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Парафінотерапія<MDBIcon icon="angle-right" />
+                                        Парафінотерапія
                                     </p>
                                 </a>
                                 </MDBMask>
@@ -406,7 +406,7 @@ const Service = () => {
                                 <MDBMask className="flex-center" overlay="pink-light">
                                 <a href="#!">
                                     <p className="black-text opacity-100 pt-5 pb-5 pl-0 pr-0 font-weight-bold">
-                                        Парафінотерапія<MDBIcon icon="angle-right" />
+                                        Парафінотерапія
                                     </p>
                                 </a>
                                 </MDBMask>
