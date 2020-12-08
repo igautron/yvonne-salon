@@ -99,22 +99,22 @@ class Top extends React.Component {
                                     >
                                         <MDBNavbarNav className='float-left p-3'>
                                             <MDBNavItem className='py-2' active>
-                                                <Link to='/' className=' font-weight-normal text-white'>Головна</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='/' className=' font-weight-normal text-white'>Головна</Link>
                                             </MDBNavItem>
                                             <MDBNavItem className='py-2'>
-                                                <Link to='./AboutSalon' className='font-weight-normal text-white'>Про салон</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='./AboutSalon' className='font-weight-normal text-white'>Про салон</Link>
                                             </MDBNavItem>
                                             <MDBNavItem className='py-2'>
-                                                <Link to='./Service' className='font-weight-normal text-white'>Послуги</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='./Service' className='font-weight-normal text-white'>Послуги</Link>
                                             </MDBNavItem>
                                             <MDBNavItem className='py-2'>
-                                                <Link to='./photos' className='font-weight-normal text-white'>Галерея</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='./photos' className='font-weight-normal text-white'>Галерея</Link>
                                             </MDBNavItem>
                                             <MDBNavItem className='py-2'>
-                                                <Link to='./price' className='font-weight-normal text-white'>Ціни</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='./price' className='font-weight-normal text-white'>Ціни</Link>
                                             </MDBNavItem>
                                             <MDBNavItem className='py-2'>
-                                                <Link to='./contacts' className='font-weight-normal text-white'>Контакти</Link>
+                                                <Link onClick={this.toggleCollapse('navbarCollapse1')} to='./contacts' className='font-weight-normal text-white'>Контакти</Link>
                                             </MDBNavItem>
                                         </MDBNavbarNav>
                                     </MDBCollapse>
