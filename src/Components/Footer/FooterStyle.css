@@ -1,27 +1,30 @@
+.footer-copyright {
+    background: rgba(16, 0, 0, 0.93) !important;
+    font-size: 15px;
+}
 
+.logo-white {
+    width: 285px;
+}
+
+.footer-nav:hover {
+    color: #1c0e0e;
+}
+
+.footer-items:hover {
+    color: #1c0e0e;
+}
 
 @media (max-width: 576px) {
     footer.page-footer {
-        height: 434px;
         background: rgb(227, 150, 175);
         overflow: hidden;
-        padding: auto 10px auto 10px;
-    }
-
-    .container-fluid {
-        height: 360px !important;
     }
 
     .footer-copyright {
-        height: 50px;
-        background: rgba(255, 0, 88, 0.89) !important;
+        background: rgba(16, 0, 0, 0.93) !important;
         font-size: 15px;
     }
-
-    .col-md-3 {
-        height: 100%;
-    }
-
 
     a.salon {
         display: inline-block;
@@ -52,27 +55,6 @@
         overflow: hidden;
     }
 
-
-    ol li {
-        height: 1px !important;
-    }
-
-    ul {
-        display: list-item;
-        text-decoration: none;
-        list-style-type: none;
-        padding-left: 50px;
-    }
-
-
-    li {
-        padding: 5px 0px 5px 0px;
-    }
-
-    h5.title {
-        padding: 20px 0px 15px 50px;
-    }
-
     .footer-nav {
         margin-left: 10px;
     }
@@ -85,20 +67,22 @@
     }
 
     i.footer-icons {
-        color: #ad1457;
+        color: #1c0e0e;
         font-size: 18px;
     }
 
-    a.logo-name {
-        font-size: 1.8rem !important;
+    p.logo-name {
+        font-size: 2rem !important;
         text-align: right !important;
         letter-spacing: 0.35rem !important;
+        float: right;
     }
 
-    a.logo-slogan {
+    p.logo-slogan {
         font-size: 0.61rem !important;
         letter-spacing: 0.15rem !important;
         text-align: right !important;
+        float: right;
     }
 
     p.logo-text {
@@ -111,7 +95,11 @@
 
     a.logo-tell {
         font-size: 0.8rem !important;
+    }
 
+    .logo-white {
+        width: 150px;
+        float: right;
     }
 
 }
@@ -133,7 +121,6 @@
 
     .footer-copyright {
         height: 50px;
-        background: rgba(255, 0, 88, 0.89) !important;
     }
 
     .row {
@@ -175,27 +162,6 @@
         overflow: hidden;
     }
 
-
-    ol li {
-        height: 1px !important;
-    }
-
-    ul {
-        display: list-item;
-        text-decoration: none;
-        list-style-type: none;
-        padding-left: 50px;
-    }
-
-
-    li {
-        padding: 5px 0px 5px 0px;
-    }
-
-    h5.title {
-        padding: 20px 0px 15px 50px;
-    }
-
     .footer-nav {
         margin-left: 45px;
 
@@ -209,16 +175,16 @@
     }
 
     i.footer-icons {
-        color: #ad1457;
+        color: #1c0e0e;
         font-size: 18px;
     }
 
-    a.logo-name {
-        font-size: 2.3rem !important;
+    p.logo-name {
+        font-size: 1rem !important;
         text-align: right !important;
     }
 
-    a.logo-slogan {
+    p.logo-slogan {
         font-size: 0.8rem !important;
         letter-spacing: 0.13rem;
         text-align: right !important;
@@ -231,6 +197,25 @@
 
     .flower-footer {
         display: none !important;
+    }
+
+    p.logo-name {
+        font-size: 2.8rem !important;
+        letter-spacing: 0.45rem;
+        float: right !important;
+        text-align: right;
+    }
+
+    p.logo-slogan {
+        font-size: 0.9rem !important;
+        letter-spacing: 0.17rem;
+        text-align: right !important;
+        float: right;
+    }
+
+    .logo-white {
+        width: 180px;
+        float: right;
     }
 }
 
@@ -251,7 +236,6 @@
 
     .footer-copyright {
         height: 50px;
-        background: rgba(255, 0, 88, 0.89) !important;
     }
 
     .row {
@@ -294,26 +278,6 @@
     }
 
 
-    ol li {
-        height: 1px !important;
-    }
-
-    ul {
-        display: list-item;
-        text-decoration: none;
-        list-style-type: none;
-        padding-left: 50px;
-    }
-
-
-    li {
-        padding: 5px 0px 5px 0px;
-    }
-
-    h5.title {
-        padding: 20px 0px 15px 50px;
-    }
-
     .footer-nav {
         margin-left: 45px;
 
@@ -327,16 +291,16 @@
     }
 
     i.footer-icons {
-        color: #ad1457;
+        color: #1c0e0e;
         font-size: 25px;
     }
 
-    a.logo-name {
+    p.logo-name {
         font-size: 2.3rem !important;
         text-align: right !important;
     }
 
-    a.logo-slogan {
+    p.logo-slogan {
         font-size: 0.8rem !important;
         letter-spacing: 0.13rem;
         text-align: right !important;
@@ -345,6 +309,24 @@
 
     p.logo-text {
         font-size: 0.85rem !important;
+    }
+
+    p.logo-name {
+        font-size: 3.1rem !important;
+        letter-spacing: 0.45rem;
+        float: right !important;
+        text-align: right;
+    }
+
+    p.logo-slogan {
+        font-size: 1rem !important;
+        letter-spacing: 0.17rem;
+        text-align: right !important;
+        float: right;
+    }
+
+    .logo-white {
+        width: 240px;
     }
 }
 
@@ -366,7 +348,6 @@
 
     .footer-copyright {
         height: 50px;
-        background: rgba(255, 0, 88, 0.89) !important;
     }
 
     .row {
@@ -409,26 +390,6 @@
     }
 
 
-    ol li {
-        height: 1px !important;
-    }
-
-    ul {
-        display: list-item;
-        text-decoration: none;
-        list-style-type: none;
-        padding-left: 50px;
-    }
-
-
-    li {
-        padding: 5px 0px 5px 0px;
-    }
-
-    h5.title {
-        padding: 20px 0px 15px 50px;
-    }
-
     .footer-nav {
         margin-left: 45px;
     }
@@ -445,24 +406,30 @@
     }
 
     i.footer-icons {
-        color: #ad1457;
+        color: #1c0e0e;
         font-size: 25px;
     }
 
-    a.logo-name {
-        font-size: 3.2rem !important;
+    p.logo-name {
+        font-size: 3.1rem !important;
         letter-spacing: 0.45rem;
+        float: right !important;
+        text-align: right;
     }
 
-    a.logo-slogan {
-        font-size: 1.1rem !important;
-        letter-spacing: 0.15rem;
+    p.logo-slogan {
+        font-size: 1rem !important;
+        letter-spacing: 0.17rem;
         text-align: right !important;
         float: right;
     }
 
     p.logo-text {
         font-size: 0.85rem !important;
+    }
+
+    .logo-white {
+        width: 240px;
     }
 }
 
@@ -482,14 +449,14 @@
 
     }
 
-    a.logo-name {
-        font-size: 3.7rem !important;
+    p.logo-name {
+        font-size: 3.8rem !important;
         text-align: right !important;
         letter-spacing: 0.5rem;
     }
 
-    a.logo-slogan {
-        font-size: 1.3rem !important;
+    p.logo-slogan {
+        font-size: 1.35rem !important;
         letter-spacing: 0.13rem;
         text-align: right !important;
         float: right;
@@ -505,7 +472,6 @@
 
     .footer-copyright {
         height: 50px;
-        background: rgba(255, 0, 88, 0.89) !important;
     }
 
     a.salon {
@@ -537,27 +503,6 @@
         overflow: hidden;
     }
 
-
-    ol li {
-        height: 1px !important;
-    }
-
-    ul {
-        display: list-item;
-        text-decoration: none;
-        list-style-type: none;
-        padding-left: 50px;
-    }
-
-
-    li {
-        padding: 5px 0px 5px 0px;
-    }
-
-    h5.title {
-        padding: 20px 0px 15px 50px;
-    }
-
     .footer-nav {
         margin-left: 45px;
     }
@@ -570,7 +515,7 @@
     }
 
     i.footer-icons {
-        color: #ad1457;
+        color: #1c0e0e;
         font-size: 25px;
     }
 

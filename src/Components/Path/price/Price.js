@@ -1,8 +1,4 @@
 import React from 'react';
-import {
-    MDBRow,
-    MDBCol,
-} from 'mdbreact';
 import './price.css'
 
 class Price extends React.Component {
@@ -12,12 +8,10 @@ class Price extends React.Component {
         return (
          <div>
              <div className='container  justify-content-center m-auto pb-5'>
-               <div className='price w-75'>
-                 <h2 className="h1-responsive font-weight-bold text-center my-5 pt-5">
-                     Ціни на послуги
-                 </h2>
-                 <div className='w-75'>
-                     <img className='justify-content-center text-center w-100 mx-3' src={require('../../../img/watercolor-flowers-png-clipart-background_7921.png')} />
+               <div className='price'>
+                   <h1 className='h1-responsive py-5 m-0 font-weight-bold text-center'>Ціни</h1>
+                 <div className=''>
+                     <img alt='' className='justify-content-center text-center w-100 m-auto' src={require('../../../img/watercolor-flowers-png-clipart-background_7921.png')} />
                  </div>
                  <table id="dtBasicExample" className="table table-price px-5 mx-3" width="100%">
                      <thead>
@@ -32,307 +26,307 @@ class Price extends React.Component {
                      <tbody>
                          <tr>
                              <td>Манікюр комбінований</td>
-                             <td>200</td>
+                             <td>200 грн</td>
                          </tr>
                          <tr>
                              <td>Чоловічий манікюр</td>
-                             <td>300</td>
+                             <td>300 грн</td>
                          </tr>
                          <tr>
                              <td>Покриття лаком, гель-лаком</td>
-                             <td>200</td>
+                             <td>200 грн</td>
                          </tr>
                          <tr>
                              <td>Покриття френч, втирка</td>
-                             <td>250</td>
+                             <td>250 грн</td>
                          </tr>
                          <tr>
                              <td>Дизайн нігтів за допомогою наклейок або камінцями</td>
-                             <td>50-100</td>
+                             <td>50-100 грн</td>
                          </tr>
                          <tr>
                              <td>Укріплення нігтів (акрилова пудра, біогель, база)</td>
-                             <td>50-100</td>
+                             <td>50-100 грн</td>
                          </tr>
                          <tr>
                              <td>Парафінотерапія</td>
-                             <td>250</td>
+                             <td>250 грн</td>
                          </tr>
                          <tr>
                              <td>Нарощування нігтів</td>
-                             <td>650</td>
+                             <td>650 грн</td>
                          </tr>
                          <tr>
                              <td>Зняття покриття гель-лаком</td>
-                             <td>100</td>
+                             <td>100 грн</td>
                          </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ПОСЛУГИ ПЕДИКЮРНОГО ЗАЛУ</p>
                      <tbody>
                          <tr>
                              <td>Класичний педикюр</td>
-                             <td>300</td>
+                             <td>300 грн</td>
                          </tr>
                          <tr>
                              <td>Апаратний педикюр</td>
-                             <td>350</td>
+                             <td>350 грн</td>
                          </tr>
                          <tr>
                              <td>Кислотний педикюр</td>
-                             <td>350</td>
+                             <td>350 грн</td>
                          </tr>
                          <tr>
                              <td>Покриття лаком</td>
-                             <td>100</td>
+                             <td>100 грн</td>
                          </tr>
                          <tr>
                              <td>Покриття гель-лаком</td>
-                             <td>200</td>
+                             <td>200 грн</td>
                          </tr>
                          <tr>
                              <td>Покриття френч, кошачий глаз, втирка</td>
-                             <td>250</td>
+                             <td>250 грн</td>
                          </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ПОСЛУГИ ПЕРУКАРСЬКОГО ЗАЛУ</p>
                      <tbody>
                      <tr>
                          <td>Стрижка короткого волосся</td>
-                         <td>від 250</td>
+                         <td>від 250 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка волосся середьної довжини</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка довгого волосся</td>
-                         <td>від 300</td>
+                         <td>від 300 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка короткого волосся</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка волосся середньої довжини</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка довгого волосся</td>
-                         <td>350</td>
+                         <td>350 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка люкс (локони)</td>
-                         <td>від 350</td>
+                         <td>від 350 грн</td>
                      </tr>
                      <tr>
                          <td>Афрокудрі</td>
-                         <td>600-800</td>
+                         <td>600-800 грн</td>
                      </tr>
                      <tr>
                          <td>Зачіски 1 складності</td>
-                         <td>600</td>
+                         <td>600 грн </td>
                      </tr>
                      <tr>
                          <td>Зачіски 2 складності</td>
-                         <td>800</td>
+                         <td>800 грн</td>
                      </tr>
                      <tr>
                          <td>Зачіски 3 складності</td>
-                         <td>1000</td>
+                         <td>1000 грн</td>
                      </tr>
                      <tr>
                          <td>Плетення волосся</td>
-                         <td>300-600</td>
+                         <td>300-600 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка чолки</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка кінчиків</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ПОСЛУГИ ПЕРУКАРСЬКОГО ЗАЛУ ДЛЯ ЧОЛОВІКІВ</p>
                      <tbody>
                      <tr>
                          <td>Чоловіча стрижка</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Чоловіча стрижка на довге волосся</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Чоловіча укладка</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Пілінг шкіри голови</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      <tr>
                          <td>Висвітлені пасма волосся(акценти)</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Часткове освітлення волосся</td>
-                         <td>600</td>
+                         <td>600 грн</td>
                      </tr>
                      <tr>
                          <td>Повне освітлення волосся</td>
-                         <td>від 1000</td>
+                         <td>від 1000 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка бороди</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Уход за бородой</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ДОГЛЯД ЗА ВОЛОССЯМ</p>
                      <tbody>
                      <tr>
                          <td>Кератинове вирівнювання Felps or Homna Tokio</td>
-                         <td>1000-1800</td>
+                         <td>1000-1800 грн</td>
                      </tr>
                      <tr>
                          <td>Кератиновий догляд Farmavita</td>
-                         <td>600</td>
+                         <td>600 грн</td>
                      </tr>
                      <tr>
                          <td>Кашемирове волосся Farmavita</td>
-                         <td>600</td>
+                         <td>600 грн</td>
                      </tr>
                      <tr>
                          <td>Маска Davines the Chircle Chronieles</td>
-                         <td>250</td>
+                         <td>250 грн</td>
                      </tr>
                      <tr>
                          <td>Лікування від лупи Farmavita</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      <tr>
                          <td>Лікування від випадіння волосся</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ЗАХИСТ ВОЛОССЯ</p>
                      <tbody>
                      <tr>
                          <td>Пілінг шкіри голови</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      <tr>
                          <td>Активний захист та відновлення під час покраски</td>
-                         <td>150/250/350/400</td>
+                         <td>150/250/350/400 грн</td>
                      </tr>
                      <tr>
                          <td>Реконструкція волосся Joico</td>
-                         <td>1000</td>
+                         <td>1000 грн</td>
                      </tr>
                      <tr>
                          <td>Маска для волосся Davines</td>
-                         <td>300-600</td>
+                         <td>300-600 грн</td>
                      </tr>
                      <tr>
                          <td>Ботекс Homna Tokio, Felps</td>
-                         <td>800-1000</td>
+                         <td>800-1000 грн</td>
                      </tr>
                      <tr>
                          <td>Ампульний уход для волосся</td>
-                         <td>500</td>
+                         <td>500 грн</td>
                      </tr>
                      <tr>
                          <td>Глубоке живлення та відновлення Farmavita</td>
-                         <td>400</td>
+                         <td>400 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка бороди</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Уход за бородой</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ФАРБУВАННЯ ВОЛОССЯ</p>
                      <tbody>
                      <tr>
                          <td>Класичний колір: фарбування корнів</td>
-                         <td>600</td>
+                         <td>600 грн</td>
                      </tr>
                      <tr>
                          <td>Класичний колір: фарбування в один тон</td>
-                         <td>від 800</td>
+                         <td>від 800 грн</td>
                      </tr>
                      <tr>
                          <td>Персональний колір: покраска із частковим фарбуванням</td>
-                         <td>1200-2000</td>
+                         <td>1200-2000 грн</td>
                      </tr>
                      <tr>
                          <td>Ексклюзивний колів: омбре, ратуш, балаяж, гуляж</td>
-                         <td>1500-2300</td>
+                         <td>1500-2300 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>ПОСЛУГИ ДЛЯ ДІТЕЙ</p>
                      <tbody>
                      <tr>
                          <td>Дитяча стрижка</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      <tr>
                          <td>Дитяча укладка</td>
-                         <td>150</td>
+                         <td>150 грн</td>
                      </tr>
                      <tr>
                          <td>Підліткова стрижка</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка малюнка</td>
-                         <td>від 300 </td>
+                         <td>від 300 грн</td>
                      </tr>
                      <tr>
                          <td>Підліткова покраска частини волосся</td>
-                         <td>від 300</td>
+                         <td>від 300 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка для дівчаток (локони)</td>
-                         <td>250</td>
+                         <td>250 грн</td>
                      </tr>
                      <tr>
                          <td>Укладка з плетенням</td>
-                         <td>300-600</td>
+                         <td>300-600 грн</td>
                      </tr>
                      <tr>
                          <td>Стрижка бороди</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Плетення із канікалоном</td>
-                         <td>300</td>
+                         <td>300 грн</td>
                      </tr>
                      </tbody>
                      <p className='py-3 text-left font-weight-bold'>БРОВКИ ТА МАКІЯЖ</p>
                      <tbody>
                      <tr>
                          <td>Фарбування брів</td>
-                         <td>200</td>
+                         <td>200 грн</td>
                      </tr>
                      <tr>
                          <td>Фарбування хной</td>
-                         <td>250</td>
+                         <td>250 грн</td>
                      </tr>
                      <tr>
                          <td>МАКІЯЖ ДЕННИЙ</td>
-                         <td>600-800</td>
+                         <td>600-800 грн</td>
                      </tr>
                      <tr>
                          <td>МАКІЯЖ ВЕЧІРНІЙ</td>
-                         <td>800-1000</td>
+                         <td>800-1000 грн</td>
                      </tr>
                      </tbody>
                  </table>

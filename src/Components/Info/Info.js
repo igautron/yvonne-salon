@@ -1,31 +1,28 @@
 import React from 'react'
+
+import { MDBBtn, MDBCard  } from "mdbreact";
 import './Info.css'
-import {  MDBIcon, MDBBtn, MDBCard  } from "mdbreact";
-import '../../img/salon/salon.JPG'
 
 import {Link} from 'react-router-dom'
 
 
 const Info = () => {
     return (
-         <div className='info h-100'>
+         <div>
              <MDBCard
                  className='card-image w-100'
              >
-                        <div className='text-white text-center d-flex flex-column align-items-center rgba-black-strong py-5 px-4 rounded w-100'>
-                            <div className='purple-text'>
-                                <h2 href="./Top.js" className='text-white font-weight-bold py-2'>Y V O N N E</h2>
-                                <div className='text-white pb-5'><a href="./Top.js" className='text-white'>BEAUTY SALON & SHOP</a></div>
+                        <div className='text-white h-100 text-center d-flex flex-column align-items-center rgba-purple-light py-5 p-0  px-sm-3 w-100'>
+                            <div className='m-0 text-left black-ic'>
+                                <p className='shop-logo-name m-0 w-100'>YVONNE</p>
+                                <p className='shop-logo-text-name text-left font-weight-normal m-0 my-sm-0 w-100' >BEAUTY SALON & SHOP</p>
                             </div>
-                            <h6 className='h4-responsive salon-info-text'>Салон краси та магазин Івон об'єднав у собі сучасні </h6>
-                            <h6 className='h4-responsive salon-info-text salon-info-text'>послуги краси для жінок та чоловіків: стрижки, різнобарв'я </h6>
-                            <h6 className='h4-responsive salon-info-text salon-info-text'>відтінків фарб для волосся, охайний манікюр та педикюр. </h6>
-                            <h6 className='h4-responsive salon-info-text salon-info-text'>У поєднанні із теплими відтінками інтер'єру та якісним </h6>
-                            <h6 className='h4-responsive salon-info-text salon-info-text'>обладнанням результат від відвідування салону </h6>
-                            <h6 className='h4-responsive salon-info-text salon-info-text'>завжди є неперевершеним.</h6>
-                            <Link to='/photos'>
-                                <MDBBtn rounded size='md-3 font-small'>
-                                    <MDBIcon className='left' /> ІНТЕР'ЕР
+                            <div className='pt-4 w-75 m-0 justify-content-center shop-logo-slogan'>
+                                Салон краси та магазин Івон об'єднав у собі сучасні послуги краси для жінок та чоловіків: стрижки, різнобарв'я відтінків фарб для волосся, охайний манікюр та педикюр. У поєднанні із теплими відтінками інтер'єру та якісним обладнанням результат від відвідування салону завжди є неперевершеним.
+                            </div>
+                           <Link to='/photos'>
+                                <MDBBtn rounded size='font-small mt-0'>
+                                    ГАЛЕРЕЯ
                                 </MDBBtn>
                             </Link>
                         </div>

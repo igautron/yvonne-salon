@@ -5,10 +5,6 @@
         margin: 0px !important;
     }
 
-    h2.galery-text {
-        padding: 30px 0px 28px 0px !important;
-    }
-
     .service-col {
         margin: 35px 25px 0px 35px!important;
         padding: 0;
@@ -20,6 +16,5 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
 
 }

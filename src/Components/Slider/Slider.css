@@ -3,11 +3,6 @@
         height: 100% !important;
     }
 
-    .slideimage {
-        height: 215px !important;
-
-    }
-
     .carousel-caption.slide1 {
         width: 110px;
         text-align: left;
@@ -97,11 +92,6 @@
         height: 100% !important;
     }
 
-    .slideimage {
-        height: 310px !important;
-
-    }
-
 }
 
 
@@ -110,10 +100,6 @@
         height: 100% !important;
     }
 
-    .slideimage {
-        height: 350px !important;
-
-    }
 
     .carousel-caption.slide1 {
         width: 200px;
@@ -206,11 +192,7 @@
     .slider {
         height: 100% !important;
     }
-
-    .slideimage {
-        height: 380px !important;
-
-    }
+    
 
     .slide1 {
         width: 250px;

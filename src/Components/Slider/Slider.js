@@ -1,12 +1,13 @@
 import React from 'react'
 import './Slider.css'
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from 'mdbreact';
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from 'mdbreact';
 
 const Slider = () => {
   return (
+      <div>
         <MDBCarousel
             activeItem={1}
-            length={5}
+            length={4}
             showControls={true}
             showIndicators={true}
             className="z-depth-1 slider"
@@ -16,7 +17,7 @@ const Slider = () => {
               <MDBView>
                 <img
                     className="d-block h-100 w-100 slideimage"
-                    src={require('../../img/slider/iStock-1180279728.jpg')}
+                    src={require('../../img/slider/if-you-love-salon-hair-treatments-this-list-is-for-you-782x439.jpg')}
                     alt="Slide one"
                 />
                 <MDBMask  overlay="black"></MDBMask>
@@ -36,7 +37,7 @@ const Slider = () => {
               <MDBView>
                 <img
                     className="d-block h-100 w-100 slideimage"
-                    src={require('../../img/slider/if-you-love-salon-hair-treatments-this-list-is-for-you-782x439.jpg')}
+                    src={require('../../img/slider/iStock-1180279728.jpg')}
                     alt="Slide one"
                 />
                 <MDBMask  overlay="black"></MDBMask>
@@ -52,18 +53,9 @@ const Slider = () => {
                 <MDBMask overlay="black" className="slide2"></MDBMask>
               </MDBView>
             </MDBCarouselItem>
-            <MDBCarouselItem itemId="5" className='slide'>
-              <MDBView>
-                <img
-                    className="d-block h-100 w-100 slideimage"
-                    src={require('../../img/slider/iStock-1018214466.jpg')}
-                    alt="Third slide"
-                />
-                <MDBMask  overlay="black"></MDBMask>
-              </MDBView>
-            </MDBCarouselItem>
           </MDBCarouselInner>
         </MDBCarousel>
+      </div>
   );
 }
 

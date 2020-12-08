@@ -14,6 +14,10 @@
     bottom: 0;
 }
 
+.beauty-descropt {
+    font-size: 1.5rem;
+}
+
 
 
 @media (max-width: 576px) {
@@ -46,6 +50,10 @@
         font-size: 1.2rem !important;
     }
 
+    .beauty-descropt {
+        font-size: 1rem;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -73,6 +81,10 @@
 
     .as-block {
         height: 330px !important;
+    }
+
+    .beauty-descropt {
+        font-size: 1rem;
     }
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import './AboutSalon.css'
-import {BrowserRouter as Router} from 'react-router-dom';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from 'mdbreact';
+import {  MDBRow, MDBCol, MDBMask, MDBIcon, MDBView, MDBBtn } from 'mdbreact';
 import {Link} from 'react-router-dom'
 
 class AboutSalon extends React.Component {
@@ -9,11 +8,10 @@ class AboutSalon extends React.Component {
     render() {
         return (
             <div>
-                <MDBCard className=" container mt-5 pb-3 border-0 pb-lg-0 pb-sm-0 pb-md-0 pl-2 mb-5">
-                    <div className="mb-0 mb-sm-5 mb-md-5 mb-lg-5 mb-xl-5 m-auto pt-0">
-                        <h2 className="h1-responsive font-weight-bold text-center my-5">
-                            Про салон
-                        </h2>
+                <div className="container">
+                    <div className="m-auto px-3 pb-5">
+                        <h1 className='h1-responsive py-5 m-0 font-weight-bold text-center'>Салон краси та магазин Iвон</h1>
+                        <p className='beauty-descropt text-center mb-4 mb-md-5'>Наш заклад краси знаходиться у спальному районі міста та має вишуканий стиль. Головними перевагами нашого салону є якість, новітність та адекватні ціни. Ми спеціалізуємося на послугах перукарського, нігтьового залу та інших послугах краси. Якщо ми говоримо про перукарські послуги, то ми обіцяємо реалізувати Ваші найкращі побажання та запропонуємо власні модні рішення – вишукану зачіску, модну стрижку та безпечне фарбування. За волоссям доглянуть косметичні засоби італійських брендів.  Манікюрний та педикюрний зал пропонує першокласний манікюр та перикюр із використанням обрізноI та апаратної технік.</p>
                         <MDBRow className='mb-sm-0 mb-lg-0 mb-xl-0  m-0 w-100 w-responsive'>
                             <MDBView
                                 className="rounded z-depth-2 salon-image h-100 w-100 overflow-hidden w-responsive"
@@ -24,25 +22,12 @@ class AboutSalon extends React.Component {
                                     src={require('./../../../img/aboutsalonimg.jpg')}
                                     alt=""
                                 />
-                                <div className="card-img-overlay m-auto justify-content-center">
-                                    <MDBMask overlay="pink-light">
-                                        <a href="#!" className='pt-xl-5'>
-                                            <p className='w-responsive mx-auto text-center h1-responsive white-text pt-5 hover-text pl-4 pr-4 pl-sm-1 pr-sm-1 mt-xl-4 mt-lg-4'>
-                                                <span className='yellow-text'>САЛОН КРАСИ</span><span
-                                                className='pink-text'><span className='white-text'> ТА</span> МАГАЗИН ІВОН</span>
-                                                <br/> знаходиться у спальному районі Києва по вулиці Данченко 32 та має
-                                                головні переваги, такі, як вишуканий та приємний інтер'єр, висока якість
-                                                послуг та приваблиці ціни.
-                                            </p>
-                                        </a>
-                                    </MDBMask>
-                                </div>
                             </MDBView>
                         </MDBRow>
-                    </div>
-                </MDBCard>
-                <MDBCard  className='container z-index-0 border-0'>
-                  <MDBRow>
+               </div>
+               <div className='z-index-0 border-0 mb-5'>
+                   <h1 className='h1-responsive py-5 m-0 font-weight-bold text-center'>У нас найкращий сервіс</h1>
+                   <MDBRow>
                     <MDBCol lg="5" >
                         <MDBView className="rounded  h-100 z-depth-2 mb-lg-0" hover waves>
                             <img
@@ -66,50 +51,23 @@ class AboutSalon extends React.Component {
                             <strong>Послуги салону</strong>
                         </h3>
                         <p>
-                            Бездоганні стрижки, зачіски, фарбування волосся - ось що складає перукарський
-                            зал. Манікюрний зал пропонує послуги манікюру та педікюру, прибере Ваші нігтики
-                            покриття лаком та шеллаком. Безлічь кольорів та відтінків та засоби для різних
+                            Ми створимо для Вас бездоганну зачіску на будь-який захід, чи то на вихід, чи то на кожен день та зробимо безпечне та модне фарбування Італійськими фарбами.
+                            Ваші нігтики будуть виглядати дбайливо доглянутими, наші майстри знають, яка техніка підійде саме для Вас. Безлічь кольорів та відтінків лаків та шелаків та засобів для різних
                             типів волосся.
                         </p>
                         <Link to='./items'>
-                           <MDBBtn color="pink" size="md" className="waves-light ">
+                           <MDBBtn color="pink" size="md" className="waves-light mb-1">
                                 Детальніше
                             </MDBBtn>
                         </Link>
                     </MDBCol>
                 </MDBRow>
-                <hr className="my-5" />
+                <hr className="my-4" />
                 <MDBRow>
-                    <MDBCol lg="7">
-                        <a href="#!" className="pink-text">
-                            <h6 className="font-weight-bold mb-3">
-                                <MDBIcon icon="image" className="pr-2" />
-                                Персонал
-                            </h6>
-                        </a>
-                        <h3 className="font-weight-bold mb-3 p-0">
-                            <strong>Майстри салону</strong>
-                        </h3>
-                        <p>
-                         Майстри салону із досвідом роботи більше 10 років акцентують увагу на сучасних
-                         зачісках та стрижках, виконують роботу орієнтуючись на довготривалу якість,
-                         піклуючись про кожного клієнта. Мають індивідуальний підхід. Охайність та
-                         пристрасть - ось наш козирь.
-                        </p>
-                        <Link to='./personal'>
-                            <MDBBtn
-                                color="pink"
-                                size="md"
-                                className="mb-lg-0 mb-4 waves-light"
-                            >
-                            Детальніше
-                            </MDBBtn>
-                         </Link>
-                    </MDBCol>
                     <MDBCol lg="5">
                         <MDBView className="rounded  h-100 z-depth-2 mb-lg-0" hover waves>
                             <img
-                                className="img-fluid w-responsive m-0 w-100 p-3"
+                                className="img-fluid w-responsive m-0 w-100 p-3 h-100"
                                 src={require('../../../img/salon/IMG_5745.JPG')}
                                 alt=""
                             />
@@ -118,8 +76,34 @@ class AboutSalon extends React.Component {
                             </a>
                         </MDBView>
                     </MDBCol>
+                    <MDBCol lg="7">
+                        <a href="#!" className="pink-text">
+                            <h6 className="font-weight-bold mt-5">
+                                <MDBIcon icon="image" className="pr-2" />
+                                Персонал
+                            </h6>
+                        </a>
+                        <h3 className="font-weight-bold mb-3 p-0">
+                            <strong>Майстри салону</strong>
+                        </h3>
+                        <p>
+                         Майстри салону створюють неперевершені образи опираючись на власний досвід та акцентуючи увагу на сучасних
+                         зачісках та стрижках, орієнтуючись на довготривалу якість та бережність вашого волосся,
+                         піклуючись про кожного клієнта. Завжди орієнтуэмось на індивідуальний підхід. Охайність та
+                         пристрасть - ось наш козирь. Ми дбаємо про кожну Вашу подумку, виконаємо усі Ваші побажання та запропонуємо своє бачення на Ваш образ.
+                        </p>
+                        <Link to='./personal'>
+                            <MDBBtn
+                                color="pink"
+                                size="md"
+                                className="mb-lg-0 mb-1 waves-light"
+                            >
+                            Детальніше
+                            </MDBBtn>
+                         </Link>
+                    </MDBCol>
                 </MDBRow>
-                <hr className="my-5" />
+                <hr className="my-4" />
                 <MDBRow>
                     <MDBCol lg="5" className='mb-5'>
                         <MDBView className="rounded z-depth-2 h-100 mb-lg-0" hover waves>
@@ -145,23 +129,22 @@ class AboutSalon extends React.Component {
                             <strong>Догляд за волоссям</strong>
                         </h3>
                         <p>
-                            Створити бездоганний стиль - чи то зачіску, чи то укладку допоможуть італійські
-                          засоби догляду за волоссям. Краса волосся - це передусім доглянуте волосся та
-                          оживлені локони, секрети краси волосся допоможе досвідчений майстер салону
-                          краси.
+                            Краса волосся - це передусім безпечний та якісний догляд. Створити бездоганний образ - зачіску або укладку допоможуть італійські
+                          засоби догляду за волоссям. У нашому магазині Ви можете придбати усі сучасні брендові засоби догляду. Ви будете захоплені Вашим новим довговічним образом.
                         </p>
                         <Link to='cosmetics'>
                             <MDBBtn
                                 color="pink"
                                 size="md"
-                                className="mb-lg-0 mb-4 waves-light"
+                                className="mb-lg-0 mb-1 waves-light"
                             >
                             Детальніше
                             </MDBBtn>
                         </Link>
                     </MDBCol>
                    </MDBRow>
-                </MDBCard>
+                </div>
+                </div>
             </div>
         )
     }

@@ -10,18 +10,16 @@ class Photos extends React.Component {
     render() {
         return (
             <div className='container mb-5'>
-                <h1 className='h1-responsive pt-5 pt-sm-5 pt-md-5 pt-lg-5 pt-xl-5 font-weight-bold my-5 pb-0'>
-                    Галерея
-                </h1>
+                <h1 className='h1-responsive py-5 m-0 font-weight-bold text-center'>Галерея</h1>
                 <h4 className="grey-text text-center w-responsive mx-auto mb-5 h4-responsive text-media">
-                    Бездоганний інтер'єр виконаний за допомогою найкращого дизайнерського рішення, найсучасніша
-                    техніка та обладнання салону краси стали основою для досягнення найвдалішої реалізації усії бажань
-                    клієнта. Індивідуальний підхів та точність - ось наша мета.
+                    Послуги краси виконані за допомогою найкращих та найновітніших технологій майстерності, найсучасніша
+                    техніка та обладнання салону краси стали основою для досягнення здійснення усії бажань
+                    клієнтів. Індивідуальний підхів та якість - ось, що ми пропонємо.
                 </h4>
                 <hr className='light ml-5 mr-5'/>
                 <MDBRow className='justify-content-end m-auto p-0 overflow-hidden align-items-stretch shadow-none'>
-                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p'>
-                        <a href='#' className='black-text'> Інтер'ер </a>
+                    <p className='text-center w-responsive mx-auto my-5 h2-responsive galery-p font-weight-bold'>
+                        Інтер'ер
                     </p>
                     <MDBCol md='12' className='mb-3 int-hide w-responsive'>
                         <img src={require('../../../img/salon/11.JPG')} className='img-fluid z-depth-2' alt=''/>
@@ -59,7 +57,7 @@ class Photos extends React.Component {
                 </MDBRow>
                 <hr className='my-5 light'/>
                 <MDBRow className='justify-content-center p-0  m-auto'>
-                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p'>
+                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p font-weight-bold'>
                         Манікюр та педикюр
                     </p>
                 </MDBRow>
@@ -118,42 +116,42 @@ class Photos extends React.Component {
                 </MDBRow>
                 <hr className='my-5 light'/>
                 <MDBRow className='justify-content-center p-0 m-auto'>
-                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p'>
+                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p font-weight-bold'>
                         Стрижки
                     </p>
                 </MDBRow>
                 <MDBRow className='p-0 m-0 justify-content-center'>
                     <MDBCol lg='4' md='12' className='mb-3'>
                         <img
-                            src={require('../../../img/salon/strijki/50637204_110884150028796_207598082487468852_n.jpg')}
+                            src={require('../../../img/works/2.jpg')}
                             className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol lg='4' md='6' className='mb-3'>
                         <img
-                            src={require('../../../img/salon/strijki/50227314_326589991288366_2214588650299900698_n.jpg')}
+                            src={require('../../../img/works/12.jpg')}
                             className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol lg='4' md='6' className='mb-3'>
                         <img
-                            src={require('../../../img/salon/strijki/49564348_778065532561230_1351560146581055897_n.jpg')}
+                            src={require('../../../img/works/8.jpg')}
                             className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                 </MDBRow>
                 <hr className='my-5 light'/>
                 <MDBRow className='justify-content-center p-0 m-auto'>
-                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive'>
+                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive font-weight-bold'>
                         Зачіски
                     </p>
                 </MDBRow>
                 <MDBRow className='p-0 m-0 justify-content-center'>
                     <MDBCol lg='4' md='12' className='mb-3'>
-                        <img src={require('../../../img/salon/zachiski/1.jpg')} className='img-fluid z-depth-1' alt=''/>
+                        <img src={require('../../../img/works/p4.jpg')} className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol lg='4' md='6' className='mb-3'>
-                        <img src={require('../../../img/salon/zachiski/2.jpg')} className='img-fluid z-depth-1' alt=''/>
+                        <img src={require('../../../img/works/p5.jpg')} className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol lg='4' md='6' className='mb-3'>
-                        <img src={require('../../../img/salon/zachiski/3.jpg')} className='img-fluid z-depth-1' alt=''/>
+                        <img src={require('../../../img/works/p1.jpg')} className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow className='m-0 justify-content-center'>
@@ -177,19 +175,19 @@ class Photos extends React.Component {
                         <img src={require('../../../img/salon/zachiski/6.jpg')} className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol md='3' className='mb-3'>
-                        <img src={require('../../../img/salon/zachiski/13.jpg')} className='img-fluid z-depth-1'
+                        <img src={require('../../../img/works/p3.jpg')} className='img-fluid z-depth-1'
                              alt=''/>
                     </MDBCol>
                 </MDBRow>
                 <hr className='my-5 light'/>
                 <MDBRow className='justify-content-center p-0 m-auto'>
-                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p'>
+                    <p className='text-center w-responsive mx-auto mb-5 h2-responsive galery-p font-weight-bold'>
                         Фарбування волосся
                     </p>
                 </MDBRow>
                 <MDBRow className='p-0 m-0 justify-content-center'>
                     <MDBCol lg='4' md='12' className='mb-3'>
-                        <img src={require('../../../img/slider/2.jpg')} className='img-fluid z-depth-1' alt=''/>
+                        <img src={require('../../../img/works/1.jpg')} className='img-fluid z-depth-1' alt=''/>
                     </MDBCol>
                     <MDBCol lg='4' md='6' className='mb-3'>
                         <img src={require('../../../img/slider/3.jpg')} className='img-fluid z-depth-1' alt=''/>
@@ -237,7 +235,7 @@ class Photos extends React.Component {
                 </MDBRow>
                 <hr className='my-5 light'/>
                 <MDBRow className='justify-content-center p-0 m-auto'>
-                    <p className='text-center w-responsive mx-auto mb-5  h2-responsive galery-p'>
+                    <p className='text-center w-responsive mx-auto mb-5  h2-responsive galery-p font-weight-bold'>
                         Для чоловіків
                     </p>
                 </MDBRow>

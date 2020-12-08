@@ -1,7 +1,4 @@
 import React from 'react'
-import {BrowserRouter as Router} from 'react-router-dom';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from 'mdbreact';
-import {Link} from 'react-router-dom'
 
 class Items extends React.Component {
 
@@ -9,12 +6,12 @@ class Items extends React.Component {
         return (
            <div>
                <div className='container  justify-content-center m-auto pb-5'>
-                   <div className='price w-75'>
+                   <div className='price w-100'>
                        <h2 className="h1-responsive font-weight-bold text-center my-5 pt-5">
                            Послуги салону
                        </h2>
-                       <div className='w-75'>
-                           <img className='justify-content-center text-center w-100 mx-3' src={require('../../../../img/watercolor-flowers-png-clipart-background_7921.png')} />
+                       <div className='w-100'>
+                           <img alt='' className='justify-content-center text-center w-100 mx-auto' src={require('../../../../img/watercolor-flowers-png-clipart-background_7921.png')} />
                        </div>
                        <table id="dtBasicExample" className="table table-price px-5 mx-3" width="100%">
                            <thead>
